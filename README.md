@@ -42,7 +42,7 @@ Plotting the bifurcation plot for the Henon map with $b = 0.3$, and the value of
 
 | <img src="./Images/bifurcation_henon.png" />     |
 |:------------------------------------------------:|
-| Bifurcation plot ($a_{step} = 0.01 $)            |
+| Bifurcation plot ( $a_{step} = 0.01 $ )            |
 <br/>
 
 Similar to problem 2, the limit $\delta = \lim_{k\to\infty} \frac{b_k - b_{k-1}}{b_{k+1} - b_{k}}$ was taken with over a finite set of just the first 4 $b_k$ values, which will correspond to the values of the parameter $a$ at which the bifurcations occurred. These values of $a$ are tabulated below and their corresponding $\delta$ values. <br/>
