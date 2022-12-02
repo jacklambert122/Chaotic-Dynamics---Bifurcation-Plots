@@ -6,6 +6,7 @@ First, a bifurcation plot of the logistic map, $x_{n+1} = R x_n(1-x_n)$ was crea
 | <img src="./Images/BifurcationPlot.png" />       |
 |:------------------------------------------------:|
 | Bifurcation plot ( $R_{step} = 0.01$ )           |
+<br/>
 
 ## Feigenbaum Number
 In order to calculate the Feigenbaum number experimentally, the limit: $\delta = \lim_{k\to\infty} \frac{b_k - b_{k-1}}{b_{k+1} - b_{k}}$ was taken over a finite set of R values at each bifurcation, $b_k$. The higher the cycles get as the system continues to have bifurcations the more accurate the estimate of the Feigenbaum number becomes. For the sake of this problem set, the first 4 bifurcations and the corresponding R values ($b_1 - b_4$) in the bifurcation tree will be used to estimate the Feigenbaum number. These R values are tabulated below:
@@ -42,7 +43,7 @@ Plotting the bifurcation plot for the Henon map with $b = 0.3$, and the value of
 
 | <img src="./Images/bifurcation_henon.png" />     |
 |:------------------------------------------------:|
-| Bifurcation plot ( $a_{step} = 0.01 $ )            |
+| Bifurcation plot ( $a_{step} = 0.01$ )           |
 <br/>
 
 Similar to problem 2, the limit $\delta = \lim_{k\to\infty} \frac{b_k - b_{k-1}}{b_{k+1} - b_{k}}$ was taken with over a finite set of just the first 4 $b_k$ values, which will correspond to the values of the parameter $a$ at which the bifurcations occurred. These values of $a$ are tabulated below and their corresponding $\delta$ values. <br/>
