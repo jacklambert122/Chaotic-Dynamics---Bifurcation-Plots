@@ -5,7 +5,7 @@ First, a bifurcation plot of the logistic map, $x_{n+1} = R x_n(1-x_n)$ was crea
 
 | <img src="./Images/BifurcationPlot.png" />           |
 |:------------------------------------------------:|
-| **Bifurcation plot ($R_{step} = 0.01 $)**        |
+| **Bifurcation plot ( $R_{step} = 0.01 $ )**        |
 <br/>
 
 ## Feigenbaum Number
